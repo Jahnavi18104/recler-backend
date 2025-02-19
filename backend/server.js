@@ -1034,7 +1034,7 @@ const JWT_SECRET = "your_jwt_secret";
 
 // Middleware
 app.use(cors({
-  origin: "https://your-frontend.onrender.com",
+  origin: "https://reclerproject.onrender.com",
   credentials: true
 }));
 app.use(express.json());
